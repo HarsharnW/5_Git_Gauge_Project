@@ -14,7 +14,7 @@ public class HomeStepImpl{
 
     @Step("Invoke the Driver to launch AutomationPractice")
     public void before() {
-        Driver.setDriver(DriverFactory.CHROME);
+        Driver.setDriver(DriverFactory.HEADLESS_CHROME);
         driver = Driver.getDriver();
         homePg = PageFactory.initElements(driver,HomePage.class);
     }

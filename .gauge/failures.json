@@ -1,8 +1,6 @@
 {
 	"Args": [
 		"run",
-		"--tags",
-		"login",
 		"--dir=C:\\Automation\\5_Git_Gauge_Project"
 	],
 	"FailedItems": []

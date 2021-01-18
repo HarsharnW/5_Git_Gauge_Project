@@ -16,8 +16,16 @@ public class Driver {
                 driver = DriverFactory.getDriver(DriverFactory.CHROME);
                 break;
 
+            case DriverFactory.HEADLESS_CHROME:
+                driver = DriverFactory.getDriver(DriverFactory.HEADLESS_CHROME);
+                break;
+
             case DriverFactory.FIREFOX:
                 driver = DriverFactory.getDriver(DriverFactory.FIREFOX);
+                break;
+
+            case DriverFactory.HEADLESS_FIREFOX:
+                driver = DriverFactory.getDriver(DriverFactory.HEADLESS_FIREFOX);
                 break;
 
             case DriverFactory.EDGE:

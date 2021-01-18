@@ -906,3 +906,6 @@ DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepVal
 18-01-2021 20:50:39.078 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Enter Password {}" parameterizedStepValue:"* Enter Password <eve20000>" parameters:"eve20000" > > 
 18-01-2021 20:50:39.078 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* Enter Email \"harsharnsoffice2@gmail.com\"" > 
 18-01-2021 20:50:39.078 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* Enter Email {}" parameterizedStepValue:"* Enter Email <harsharnsoffice2@gmail.com>" parameters:"harsharnsoffice2@gmail.com" > > 
+18-01-2021 20:56:04.329 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:" User signs in to application" > 
+18-01-2021 20:56:04.329 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"User signs in to application" parameterizedStepValue:"User signs in to application" > > 
+18-01-2021 21:46:05.517 [Gauge] [INFO] Spec file added / modified: C:\Automation\5_Git_Gauge_Project\specs\login.spec
